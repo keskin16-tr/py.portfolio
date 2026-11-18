@@ -5,7 +5,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  workflow_dispatch: # Manuel olarak Tetikleme Düğmesi
+  workflow_dispatch:
 
 jobs:
   build:
