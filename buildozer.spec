@@ -9,11 +9,16 @@ package.name = flaskapp
 # (str) Package domain (needed for android packaging)
 package.domain = org.test
 
+# (str) Source where the app lives
+source.dir = .
+
 # (list) Source files to include (let it empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas
 
+# (str) Application versioning (Zorunlu alan)
+version = 0.1
+
 # (list) Application requirements
-# (Not: cctx -> ccxt olarak düzeltilmiştir)
 requirements = python3,kivy,flask,requests,ccxt,yfinance,openpyxl,pandas
 
 # (str) Supported orientations
